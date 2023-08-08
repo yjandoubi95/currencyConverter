@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <div class="table">
+        <select name="curr1" class="curr1">
+      <option value="1">Dollar $</option>
+      <option value="2">Euro €</option>
+      <option value="3">Pound Sterling  £</option>
+      <option value="4">Yen  ¥</option>
+      <option value="5">Franc  ₣</option>
+      <option value="6">Rupee  ₹</option>
+      <option value="7">Dinar  د. ت</option>
+      <option value="8">Dirham  د. إ</option>
+      <option value="9">Lira ₺</option>
+      <option value="10">Won 원</option>
+        </select>
+        <input type="text" class="val">
+    </div>
+    <div class="table">
+        <select name="curr2" class="curr2">
+            <option value="1">Dollar $</option>
+            <option value="2">Euro €</option>
+            <option value="3">Pound Sterling  £</option>
+            <option value="4">Yen  ¥</option>
+            <option value="5">Franc  ₣</option>
+            <option value="6">Rupee  ₹</option>
+            <option value="7">Dinar  د. ت</option>
+            <option value="8">Dirham  د. إ</option>
+            <option value="9">Lira ₺</option>
+            <option value="10">Won 원</option>
+        </select>
+        <input type="text" class="val" id="result">
+    </div>
+    <button class="convert" onclick="convertCurr()">Convert</button>
+    <div class="result-box">
+    </div>
+    <div>
+        <button class="Add" onclick="addCurrency()">Add Currency</button>
+        <input type="text" id="NewCurr">
+        <input type="text" id="valueOfNewCurr">
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
